@@ -201,6 +201,15 @@ export default function App() {
             <Link to="/blog" className="text-gray-400 hover:text-white transition underline">Blog</Link>
             <a href="/privacy-policy.html" className="text-gray-400 hover:text-white transition underline">Privacy Policy</a>
           </div>
+          <div className="mt-6 border-t border-gray-700 pt-5">
+            <p className="text-xs text-gray-500 mb-3 uppercase tracking-wider">Also from Tomlinson &amp; Co</p>
+            <div className="flex flex-wrap justify-center gap-4 text-xs">
+              <a href="https://tomlinsonandco.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition underline">Tomlinson &amp; Co (Parent Agency)</a>
+              <a href="https://easycommercialauto.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition underline">Commercial Auto Insurance</a>
+              <a href="https://easycommercialinsurance.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition underline">Commercial Insurance (BOP/GL)</a>
+              <a href="https://hoinsurance.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition underline">Florida Home Insurance</a>
+            </div>
+          </div>
           <p className="text-xs mt-4">© {new Date().getFullYear()} Tomlinson &amp; Co Inc. All rights reserved.</p>
           <p className="text-xs mt-1 text-gray-600">FLAWC.com is a marketing brand of Tomlinson &amp; Co Inc., a licensed Florida insurance agency.</p>
         </div>
